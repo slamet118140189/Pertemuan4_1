@@ -1,0 +1,46 @@
+*,html,body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: gray;
+}
+.container {
+  
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 5px;
+  box-shadow: -10px 10px 10px black;
+  padding: 20px;
+}
+label {
+  text-transform:capitalize ;
+  color: white;
+}
+input[type=number]{
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  background: white;
+  border-radius: 5px;
+  border: none;
+}
+button {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background: green;
+  color: white;
+}
+button:hover {
+  cursor: pointer;
+}
+.output p{
+  margin-top: 50px;
+  padding: 10px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 30px;
+}
